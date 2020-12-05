@@ -9,7 +9,7 @@ const Pages3: () => React$Node = ({ navigation, route}) => {
     <>
       <Header title="RESULTADO" />
       <View style={styles.container}>
-        <Text style={styles.title}>Endereço:</Text>
+        <Text style={styles.title}>Endereço: </Text>
         <Text></Text>
         <Text></Text>
         <Text>Logradouro: {route.params.rua}</Text>
