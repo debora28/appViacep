@@ -10,6 +10,8 @@ target 'ProjetoAulaSete' do
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
+  pod 'RealmJS', :path => '../node_modules/realm'
+
   target 'ProjetoAulaSeteTests' do
     inherit! :complete
     # Pods for testing

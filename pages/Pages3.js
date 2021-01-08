@@ -12,6 +12,7 @@ const Pages3: () => React$Node = ({ navigation, route}) => {
         <Text style={styles.title}>Endereço: </Text>
         <Text></Text>
         <Text></Text>
+        <Text>CEP: {route.params.cep}</Text>
         <Text>Logradouro: {route.params.rua}</Text>
         <Text>Complemento: {route.params.complemento}</Text>
         <Text>Bairro: {route.params.bairro}</Text>
