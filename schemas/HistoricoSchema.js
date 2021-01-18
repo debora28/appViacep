@@ -1,17 +1,19 @@
 const HistoricoSchema = {
     name: 'Historico',
-    primaryKey: 'cep',
+    primaryKey: 'id',
     properties: {
-        id: string,
-        cep: string,
-        rua: string,
-        complemento: string,
-        bairro: string,
-        localidade: string,
-        uf: string,
-        ibge: string,
-        gia: string,
-        ddd: string,
-        siafi: string,
+        id: 'string',
+        cep: 'string',
+        logradouro: 'string',
+        complemento: 'string',
+        bairro: 'string',
+        localidade: 'string',
+        uf: 'string',
+        ibge: 'string',
+        gia: 'string',
+        ddd: 'string',
+        siafi: 'string',
     },
-  };
+};
+
+export default HistoricoSchema;

@@ -1,5 +1,5 @@
 {
-  "name": "ProjetoAulaSete",
+  "name": "projetoaulasete",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -29,12 +29,24 @@
     "@babel/runtime": "^7.8.4",
     "@react-native-community/eslint-config": "^1.1.0",
     "babel-jest": "^25.1.0",
-    "eslint": "^6.5.1",
+    "eslint": "^6.8.0",
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.59.0",
     "react-test-renderer": "16.13.1"
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debora28/appViacep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debora28/appViacep/issues"
+  },
+  "homepage": "https://github.com/debora28/appViacep#readme",
+  "description": ""
 }

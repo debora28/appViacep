@@ -1,18 +1,22 @@
 import React from 'react';
-import {Button, StyleSheet, Text, View} from 'react-native';
+import { Button, StyleSheet, Text, View, FlatList, SafeAreaView } from 'react-native';
 
 import Header from './components/Header';
+import Historico from '../services/realm';
 
 const Pages2: () => React$Node = ({navigation, route}) => {
   return (
     <>
-      <Header title="Pages 2" />
+      <Header title="HISTÓRICO" />
 
       <View style={styles.container}>
-        <Text style={styles.title}>Você está na página 2</Text>
-        {/* <Text>Nome: {route.params.nome}</Text>
-        <Text>Idade: {route.params.idade}</Text> */}
-        {/* <Button title="Voltar" onPress={() => navigation.goBack()} /> */}
+        <Text style={styles.title}>Lista de Buscas Realizadas:</Text>
+        <Text>{route.params.historico}</Text>
+        <SafeAreaView style={styles.container}>
+          <FlatList
+          />
+          </SafeAreaView>
+        <Button title="Voltar" onPress={() => navigation.goBack()} />
       </View>
     </>
   );
@@ -21,7 +25,7 @@ const Pages2: () => React$Node = ({navigation, route}) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff4e6',
+    backgroundColor: '#e0ffff',
     alignItems: 'center',
     justifyContent: 'center',
   },

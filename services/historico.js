@@ -1,38 +1,27 @@
-import { getRealm } from "./realm";
+import React from 'react';
+import HistoricoSchema from '../schemas/HistoricoSchema';
+import { getRealm } from './realm';
 
 export const salvarHistorico = async (historico) => {
-    const realm = await getRealm();
-
     try {
+        const realm = await getRealm();
         realm.write(() => {
             realm.create('Historico', historico, true);
-        };       
+        })
+
+        alert('Salvo no histórico');
     } catch (error) {
-        console.log(error);
+        console.log("Erro na criação: ", error);
     }
 };
 
-export const consultarHistorico = async (historico) => {
+export const consultarHistorico = async () => {
     try {
         const realm = await getRealm();
         return await realm.objects('Historico');
-              
     } catch (error) {
-        console.log(error);
+        console.log("Erro na consulta: ", error);
     }
+
 };
 
-//     const endereco = {
-//         cep: string,
-//         rua: string,
-//         complemento: string,
-//         bairro: string,
-//         localidade: string,
-//         uf: string,
-//         ibge: string,
-//         gia: string,
-//         ddd: string,
-//         siafi: string,
-//     };
-//     realm.create('Historico', data, true)
-// })

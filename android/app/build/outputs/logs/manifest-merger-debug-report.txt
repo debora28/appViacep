@@ -13,6 +13,7 @@ MERGED from [:react-native-gesture-handler] C:\Users\debor\projetosGitHub\Projet
 MERGED from [:react-native-reanimated] C:\Users\debor\projetosGitHub\ProjetoAulaSete\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] C:\Users\debor\projetosGitHub\ProjetoAulaSete\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] C:\Users\debor\projetosGitHub\ProjetoAulaSete\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:realm] C:\Users\debor\projetosGitHub\ProjetoAulaSete\node_modules\realm\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\debor\.gradle\caches\transforms-2\files-2.1\af32ac701000b378de78481fdca8e6b6\jetified-react-native-0.63.3\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\debor\.gradle\caches\transforms-2\files-2.1\37b6f551bc5ae153b0b627de8f563815\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] C:\Users\debor\.gradle\caches\transforms-2\files-2.1\6dd6245206e34676e1ee3aa6ee0f68c9\android-jsc-r245459\AndroidManifest.xml:2:1-11:12
@@ -90,6 +91,8 @@ application
 ADDED from C:\Users\debor\projetosGitHub\ProjetoAulaSete\android\app\src\main\AndroidManifest.xml:6:5-25:19
 MERGED from C:\Users\debor\projetosGitHub\ProjetoAulaSete\android\app\src\main\AndroidManifest.xml:6:5-25:19
 MERGED from C:\Users\debor\projetosGitHub\ProjetoAulaSete\android\app\src\main\AndroidManifest.xml:6:5-25:19
+MERGED from [:realm] C:\Users\debor\projetosGitHub\ProjetoAulaSete\node_modules\realm\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-20
+MERGED from [:realm] C:\Users\debor\projetosGitHub\ProjetoAulaSete\node_modules\realm\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\debor\.gradle\caches\transforms-2\files-2.1\af32ac701000b378de78481fdca8e6b6\jetified-react-native-0.63.3\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\debor\.gradle\caches\transforms-2\files-2.1\af32ac701000b378de78481fdca8e6b6\jetified-react-native-0.63.3\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.9.0] C:\Users\debor\.gradle\caches\transforms-2\files-2.1\c34148f30cbc3e974eff21cbfb6a112a\soloader-0.9.0\AndroidManifest.xml:11:5-20
@@ -172,6 +175,8 @@ MERGED from [:react-native-safe-area-context] C:\Users\debor\projetosGitHub\Proj
 MERGED from [:react-native-safe-area-context] C:\Users\debor\projetosGitHub\ProjetoAulaSete\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] C:\Users\debor\projetosGitHub\ProjetoAulaSete\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] C:\Users\debor\projetosGitHub\ProjetoAulaSete\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:realm] C:\Users\debor\projetosGitHub\ProjetoAulaSete\node_modules\realm\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:realm] C:\Users\debor\projetosGitHub\ProjetoAulaSete\node_modules\realm\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\debor\.gradle\caches\transforms-2\files-2.1\af32ac701000b378de78481fdca8e6b6\jetified-react-native-0.63.3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.63.3] C:\Users\debor\.gradle\caches\transforms-2\files-2.1\af32ac701000b378de78481fdca8e6b6\jetified-react-native-0.63.3\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\debor\.gradle\caches\transforms-2\files-2.1\37b6f551bc5ae153b0b627de8f563815\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44

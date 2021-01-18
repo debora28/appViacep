@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   container: {
     paddingTop: 30,
     paddingBottom: 20,
-    backgroundColor: '#7b68ee',
+    backgroundColor: '#20b2aa',
     alignItems: 'center',
   },
   headerText: {
