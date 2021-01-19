@@ -4,7 +4,6 @@ import {TextInput} from 'react-native-gesture-handler';
 import Header from './components/Header';
 import {consultarEndereco} from '../services/apiCep';
 import {consultarHistorico, salvarHistorico} from '../services/historico';
-// import axios from 'axios';
 
 const Home: () => React$Node = ({navigation, route}) => {
   const [cep, setCep] = React.useState('');
@@ -12,7 +11,7 @@ const Home: () => React$Node = ({navigation, route}) => {
   const pegarEndereco = async () => {
     const ende = await consultarEndereco(cep);
     const historico = {
-          id: ende.cep + Date.now(),
+          id: toString(ende.cep + Date.now()),
           cep: ende.cep,
           logradouro: ende.logradouro,
           complemento: ende.complemento,
@@ -25,7 +24,7 @@ const Home: () => React$Node = ({navigation, route}) => {
           siafi: ende.siafi,
         };
         await salvarHistorico(historico);
-        navigation.navigate('Pages3', ende);
+        navigation.navigate('ResultadoBusca', ende);
         console.log(historico);
     };
     const verHistorico = async () => {
@@ -33,7 +32,7 @@ const Home: () => React$Node = ({navigation, route}) => {
       const envio = {
         data: historico,
       };
-      navigation.navigate('Pages2', envio);
+      navigation.navigate('ListaHistorico', envio);
     };
 
     return (

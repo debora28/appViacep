@@ -4,7 +4,7 @@ import { Button, StyleSheet, Text, View } from 'react-native';
 import Header from './components/Header';
 import Home from './Home';
 
-const Pages3: () => React$Node = ({ navigation, route}) => {
+const ResultadoBusca: () => React$Node = ({ navigation, route}) => {
   return (
     <>
       <Header title="RESULTADO DA CONSULTA" />
@@ -44,4 +44,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Pages3;
+export default ResultadoBusca;

@@ -7,9 +7,6 @@
  */
 
 import React from 'react';
-
-// import Home from './pages/Home';
-// import Page2 from './pages/Pages2';
 import Routes from './Routes';
 
 const App: () => React$Node = () => {

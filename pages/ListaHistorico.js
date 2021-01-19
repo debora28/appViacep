@@ -4,16 +4,19 @@ import { Button, StyleSheet, Text, View, FlatList, SafeAreaView } from 'react-na
 import Header from './components/Header';
 import Historico from '../services/realm';
 
-const Pages2: () => React$Node = ({navigation, route}) => {
+const ListaHistorico: () => React$Node = ({navigation, route}) => {
   return (
     <>
       <Header title="HISTÓRICO" />
 
       <View style={styles.container}>
         <Text style={styles.title}>Lista de Buscas Realizadas:</Text>
-        <Text>{route.params.historico}</Text>
+        <Text>{route.params.data.historico}</Text>
         <SafeAreaView style={styles.container}>
           <FlatList
+          // data={historico}
+          // renderItem={renderItem}
+          // keyExtractor={item => item.logradouro}
           />
           </SafeAreaView>
         <Button title="Voltar" onPress={() => navigation.goBack()} />
@@ -37,4 +40,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Pages2;
+export default ListaHistorico;
